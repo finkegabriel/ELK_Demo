@@ -1,13 +1,12 @@
 <template>
-    
+    <div>
+        <textarea placeholder="text here"/>
+    </div>
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
 
-export default defineComponent({
-    setup() {
-        
-    },
+export default({
+    name:"LoginPage",
 })
 </script>
